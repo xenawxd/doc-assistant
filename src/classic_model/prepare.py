@@ -9,6 +9,7 @@ def main():
     output_dir = "data/processed"
     output_path = os.path.join(output_dir, "clean.csv")
     
+    #Проверяем наличие папки
     os.makedirs(output_dir, exist_ok=True)
     
     # Обработка
